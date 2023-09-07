@@ -46,15 +46,19 @@ import { FiUsers, FiUserPlus } from 'react-icons/fi';
 ```
 
 ## React Router Dom
+[React Router](https://reactrouter.com/en/main)
 
-version used - "react-router-dom": "^5.2.0",
+- version 6.4 brought significant changes (loader and action)
+- pages as independent entities
+- less need for global state
+- more pages
 
-- [react-router-dom - Main Docs](https://reactrouter.com/web/guides/quick-start)
+#### Setup Router Command
+```
+npm i react-router-dom@6.10.0
+```
 
-- <Switch> renders the first child <Route> that matches
-- A <Route path="*"> always matches
-
-## Gihthub API
+## Github API
 
 - [Root Endpoint](https://api.github.com)
 - [Get User](https://api.github.com/users/hkirat)
