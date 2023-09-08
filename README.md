@@ -10,10 +10,16 @@
 
 
 # Setup
-- css provided (global styles, styled components)
-- folders/files already setup
-- all imports included (warnings)
-- index.js for easier imports
+
+## Tech Stack
+- ReactJs 
+- React Router Dom
+- React Icons
+- Styled Components
+- Fusion Charts
+- Auth0
+- Github API
+- Netlify
 
 ## Styled Components
 
