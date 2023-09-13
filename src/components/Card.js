@@ -1,7 +1,7 @@
 import React , {useContext} from 'react';
 import { GithubContext } from '../context/context';
 import styled from 'styled-components';
-import { MdBusiness, MdLocationOn, MdLink } from 'react-icons/md';
+import { MdBusiness, MdLocationOn, MdLink , MdClose} from 'react-icons/md';
 const Card = () => {
   const {githubUser} = useContext(GithubContext);
   const {
@@ -20,7 +20,7 @@ const Card = () => {
         <img src={avatar_url} alt={name}/>
         <div>
           <h4>{name}</h4>
-          <p> Twitter : @{twitter_username || 'Not added'}</p>
+          <p>Twitter: <a href={`https://twitter.com/${twitter_username || 'JohnDoe'}`} target="_blank" rel="noopener noreferrer">@{twitter_username || 'Not Added'}</a></p>
         </div>
         <a href={html_url}>Follow</a>
       </header>
@@ -32,12 +32,17 @@ const Card = () => {
         <p>
           <MdLocationOn></MdLocationOn> {location || 'earth'}
         </p>
-         <a href={`https://${blog}`}>
-                    <MdLink></MdLink>
-                      {blog}
-                  </a>
-              
-      </div>
+        {blog ? (
+          <a href={`https://${blog}`}>
+            <MdLink /> {blog}
+          </a>
+        ) : (
+          <div>
+            <MdClose /> No blog link available
+          </div>
+        )}
+        
+        </div>
     </Wrapper>
   )
 };
