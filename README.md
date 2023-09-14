@@ -21,6 +21,20 @@
 - Github API
 - Netlify
 
+## ScreenShots
+* Login/SignUp
+  <img width="1424" alt="Screenshot 2023-09-14 at 12 07 48 PM" src="https://github.com/PARASnagpal99/StalkHub/assets/86076130/0fd9807d-4ca7-4f77-8d3d-348b703564fa">
+  <img width="419" alt="Screenshot 2023-09-14 at 12 08 40 PM" src="https://github.com/PARASnagpal99/StalkHub/assets/86076130/870a33f8-45d9-41d7-a2dd-89158bdb5ab5">
+  
+* DashBoard , SearchBar , Searched Persons's Profile and its Followers
+  <img width="1432" alt="Screenshot 2023-09-14 at 12 09 37 PM" src="https://github.com/PARASnagpal99/StalkHub/assets/86076130/82a87c75-e671-4eec-a246-21ed51703ef3">
+  
+* Most Used Languages , Most Popular Repos , Stars per Language , and Most Forked Repos visualized in form of charts and Graphs .
+  <img width="1201" alt="Screenshot 2023-09-14 at 12 10 20 PM" src="https://github.com/PARASnagpal99/StalkHub/assets/86076130/918b50ac-920a-4f10-b671-d3be8e6f5c8c">
+
+
+
+
 ## Styled Components
 
 [Styled-Components - Main Docs](https://styled-components.com/)
